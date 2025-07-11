@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-/* Variables globale*/
+/* Couleur réutilisable dans n'importe quel selecteur (variable globale)*/
 html {
     --var-bg-color: #7743e9;
     --var-secondary-color: #6e51cf;
@@ -96,7 +96,7 @@ main{
     
 }
 
-#hero  .gauche p{
+#hero .gauche p{
     font-size: clamp(1rem, 2vw, 1rem);
     color: var(--var-text-color);
     
